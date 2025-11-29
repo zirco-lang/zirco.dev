@@ -1,0 +1,73 @@
+# Node / Yarn
+node_modules/
+.pnp/                # Yarn Plug'n'Play
+.pnp.js
+.pnp.cjs
+
+# Build / output
+/build/
+dist/
+out/
+.next/               # Next.js
+.vite/               # Vite cache dir (sometimes)
+.cache/
+.cache-loader/
+.parcel-cache/
+
+# Production artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (do NOT commit secrets)
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+jest-cache/
+jest-*.json
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Misc
+.cache/
+*.tgz
+*.zip
+
+# Lockfiles — keep them in repo (do NOT ignore), but if you use pnpm/yarn v2 with workspace you might have artifacts:
+# (uncomment only if you specifically want to ignore a lockfile — usually you SHOULD commit it)
+# yarn.lock
+# package-lock.json
+
+# Optional: local editor/project-specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Docker
+docker-compose.override.yml
+.env.docker
