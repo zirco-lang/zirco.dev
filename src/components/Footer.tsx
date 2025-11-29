@@ -103,7 +103,11 @@ export function Footer() {
                 <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
                     <p>
                         © {currentYear} Zirco Contributors, Logan Devine and
-                        dawn_ll. Released under the MIT License.
+                        dawn_ll. Website released under the MIT License.
+                    </p>
+                    <p>
+                        Zirco is open source software released under the GNU
+                        Lesser General Public License.
                     </p>
                 </div>
             </div>
