@@ -1,20 +1,20 @@
 import { FadeIn } from "./FadeIn";
 
 export function CodeExample() {
-    const code = `const std = @import("std");
-pub fn main() !void {
-    const allocator = std.heap.page_allocator;
-    
-    // Explicit error handling
-    const file = try std.fs.cwd().openFile("data.txt", .{});
-    defer file.close();
-    
-    // Clear memory management
-    var buffer = try allocator.alloc(u8, 1024);
-    defer allocator.free(buffer);
-    
-    const bytes_read = try file.read(buffer);
-    std.debug.print("Read {} bytes\\n", .{bytes_read});
+    const code = `#include <stdio.zh>
+
+// Clear integer types and function syntax
+fn factorial(n: i32) -> i32 {
+    if (n <= 1) return 1; // Simple, C-like control flow
+    return n * factorial(n - 1); 
+}
+
+fn main() -> i32 {
+    printf("Hello, Zirco!\\n");
+    let result: i32 = factorial(5);
+    // Utilize familiar libc functions seamlessly
+    printf("5! = %d\\n", result);
+    return 0;
 }`;
 
     return (
@@ -29,32 +29,17 @@ pub fn main() !void {
                             Simple and Explicit
                         </h2>
                         <div className="space-y-3 md:space-y-4 text-base md:text-lg text-gray-700 dark:text-gray-300 transition-colors duration-300">
+                            <p>Every line of Zirco code is straightforward.</p>
                             <p>
-                                Every line of Zirco code is straightforward.
-                                Error handling is explicit with{" "}
-                                <code className="bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded font-mono text-sm transition-colors duration-300">
-                                    try
-                                </code>{" "}
-                                and{" "}
-                                <code className="bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded font-mono text-sm transition-colors duration-300">
-                                    catch
-                                </code>
-                                .
+                                Memory management is visible and deterministic —
+                                allocations and deallocations are explicit, so
+                                there are no GC pauses or hidden allocations.
                             </p>
                             <p>
-                                Memory management is visible and deterministic.
-                                Use{" "}
-                                <code className="bg-gray-200 dark:bg-gray-700 px-1.5 py-0.5 rounded font-mono text-sm transition-colors duration-300">
-                                    defer
-                                </code>{" "}
-                                to ensure cleanup happens exactly when you
-                                expect it.
+                                Control flow is clear and predictable, with no
+                                hidden jumps or exceptions.
                             </p>
-                            <p>
-                                No garbage collection pauses. No hidden
-                                allocations. Full control over your program's
-                                behavior.
-                            </p>
+                            <p>Just plain, readable code.</p>
                         </div>
                     </FadeIn>
 

@@ -102,8 +102,8 @@ export function Footer() {
                 {/* Copyright Section */}
                 <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
                     <p>
-                        © {currentYear} Zirco Contributors and dawn_ll. Released
-                        under the MIT License.
+                        © {currentYear} Zirco Contributors, Logan Devine and
+                        dawn_ll. Released under the MIT License.
                     </p>
                 </div>
             </div>

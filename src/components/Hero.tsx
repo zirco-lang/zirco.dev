@@ -42,23 +42,22 @@ export function Hero() {
                     </div>
 
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 md:mb-6 leading-tight">
-                        A modern programming language focusing on a strong type
-                        system and modern syntax
+                        Bare-metal power. Modern clarity.
                     </h1>
 
                     <div className="space-y-3 md:space-y-4 text-base md:text-lg text-gray-700 dark:text-gray-300">
                         <p>
-                            Zirco is a compiled programming language with a
-                            strong type system and modern syntax. It uses C-like
-                            semantics with Rust-inspired syntax. The language is
-                            designed to provide a clean, expressive syntax while
-                            maintaining compatibility with systems-level
-                            programming requirements.
+                            Zirco is an experimental compiled C-like programming
+                            language with a strong type system and modern
+                            syntax. The language is designed to provide a clean,
+                            expressive syntax while maintaining compatibility
+                            and simplicity for systems-level programming tasks.
                         </p>
 
                         <p>
                             No hidden control flow. No hidden memory
-                            allocations. No preprocessor, no macros.
+                            allocations. No macros. Just clear, predictable
+                            code.
                         </p>
                     </div>
 

@@ -5,9 +5,9 @@ export function Features() {
     const features = [
         {
             icon: Shield,
-            title: "Strong Type System",
+            title: "Simple, Strong Type System",
             description:
-                "Zirco features an extremely strong runtime type system that catches errors early and provides robust guarantees about your program's behavior.",
+                "Zirco features an extremely simple compile-time type system that catches common errors early, helping you write safer and more reliable code without headaches.",
         },
         {
             icon: Code,
@@ -19,13 +19,13 @@ export function Features() {
             icon: Cpu,
             title: "Native Performance",
             description:
-                "Compiles to native code via LLVM. Suitable for low-level systems programming tasks where performance and control matter most.",
+                "Zirco uses the battle-tested LLVM compiler infrastructure to compile directly to highly optimized native code. Suitable for low-level systems programming tasks where performance and control matter most.",
         },
         {
             icon: Wrench,
             title: "Systems Programming Ready",
             description:
-                "Designed for systems-level development with C-like semantics, providing the control you need for embedded, kernel, and performance-critical applications.",
+                "Designed for systems-level development with C-like semantics, providing the control you need for performance-critical applications.",
         },
     ];
 
