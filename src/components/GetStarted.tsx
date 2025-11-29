@@ -23,12 +23,13 @@ export function GetStarted() {
                                 Install Prerequisites
                             </h3>
                             <div className="bg-gray-900 dark:bg-gray-950 text-white p-3 sm:p-4 mb-4 font-mono text-xs sm:text-sm overflow-x-auto rounded transition-colors duration-300">
-                                <div>sudo apt install llvm-20</div>
-                                <div>curl https://sh.rustup.rs | sh</div>
+                                <div>
+                                    sudo apt install llvm-20-dev libpolly-20-dev
+                                </div>
                             </div>
                             <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
-                                Install Rust toolchain and LLVM 20 on Linux,
-                                macOS, or WSL.
+                                Install LLVM 20 and libpolly development
+                                libraries for your platform.
                             </p>
                         </div>
                     </FadeIn>
@@ -39,15 +40,18 @@ export function GetStarted() {
                                 02
                             </div>
                             <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-3 transition-colors duration-300">
-                                Clone and Build
+                                Install the Zircon Toolchain Manager
                             </h3>
                             <div className="bg-gray-900 dark:bg-gray-950 text-white p-3 sm:p-4 mb-4 font-mono text-xs sm:text-sm overflow-x-auto rounded transition-colors duration-300">
-                                <div>git clone github.com/zirco-lang/zrc</div>
-                                <div>cargo build --release</div>
+                                <div>
+                                    curl -sSf https://zirco.dev/zstrap.sh | bash
+                                </div>
+                                <div>zircon build main</div>
                             </div>
                             <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
-                                Clone the repository and build the Zirco
-                                compiler from source.
+                                Follow the steps to install the Zircon Toolchain
+                                Manager (zircon) and set up your environment,
+                                then build a toolchain.
                             </p>
                         </div>
                     </FadeIn>
