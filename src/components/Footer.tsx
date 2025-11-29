@@ -1,5 +1,5 @@
 import logoLight from "../assets/zirco-logo-light.png";
-import logoDark from "../assets/zirco-logo-light.png";
+import logoDark from "../assets/zirco-logo-dark.png";
 
 interface FooterLink {
     label: string;
