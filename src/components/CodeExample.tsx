@@ -1,4 +1,6 @@
+import zirco from "./zirco.tmLanguage.json";
 import { FadeIn } from "./FadeIn";
+import ShikiHighlighter from "react-shiki";
 
 export function CodeExample() {
     const code = `#include <stdio.zh>
@@ -43,15 +45,20 @@ fn main() -> i32 {
                         </div>
                     </FadeIn>
 
-                    <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden w-full transition-colors duration-300">
-                        <div className="overflow-x-auto">
-                            <pre className="p-3 sm:p-4 md:p-6 text-xs sm:text-sm min-w-max">
-                                <code className="font-mono text-gray-900 dark:text-gray-100 leading-relaxed block transition-colors duration-300">
+                    {/* <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden w-full transition-colors duration-300"> */}
+                    <div className="overflow-x-auto">
+                        <pre className="p-3 sm:p-4 md:p-6 text-xs sm:text-sm min-w-max">
+                            <code className="font-mono text-gray-900 dark:text-gray-100 leading-relaxed block transition-colors duration-300">
+                                <ShikiHighlighter
+                                    language={zirco}
+                                    theme="plastic"
+                                >
                                     {code}
-                                </code>
-                            </pre>
-                        </div>
+                                </ShikiHighlighter>
+                            </code>
+                        </pre>
                     </div>
+                    {/* </div> */}
                 </div>
             </div>
         </section>
