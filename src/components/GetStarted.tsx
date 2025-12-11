@@ -44,7 +44,7 @@ export function GetStarted() {
                             </h3>
                             <div className="bg-gray-900 dark:bg-gray-950 text-white p-3 sm:p-4 mb-4 font-mono text-xs sm:text-sm overflow-x-auto rounded transition-colors duration-300">
                                 <div>
-                                    curl -sSf https://zirco.dev/zstrap.sh | bash
+                                    curl -sL https://zirco.dev/zstrap.sh | bash
                                 </div>
                                 <div>zircon build main</div>
                             </div>
