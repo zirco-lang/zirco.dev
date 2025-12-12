@@ -51,7 +51,7 @@ export function TableOfContents() {
     return (
         <div className="hidden lg:block">
             <div className="sticky top-24">
-                <h4 className="text-gray-900 dark:text-white mb-4 transition-colors duration-300">
+                <h4 className="text-white mb-4 transition-colors duration-300">
                     On this page
                 </h4>
                 <nav className="space-y-2">
@@ -61,8 +61,8 @@ export function TableOfContents() {
                             onClick={() => scrollToSection(section.id)}
                             className={`flex items-center gap-2 w-full text-left py-2 px-3 border-l-2 transition-all duration-300 ${
                                 activeSection === section.id
-                                    ? "border-gray-900 dark:border-white text-gray-900 dark:text-white bg-gray-50 dark:bg-gray-800"
-                                    : "border-gray-200 dark:border-gray-700 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:border-gray-400 dark:hover:border-gray-500"
+                                    ? "border-white text-white bg-gray-800"
+                                    : "border-gray-700 text-gray-400 hover:text-white hover:border-gray-500"
                             }`}
                         >
                             <ChevronRight

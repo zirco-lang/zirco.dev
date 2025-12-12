@@ -1,4 +1,3 @@
-import logoLight from "../assets/zirco-logo-light.png";
 import logoDark from "../assets/zirco-logo-dark.png";
 
 interface FooterLink {
@@ -44,7 +43,7 @@ const FOOTER_LINKS: Record<string, FooterSection> = {
 
 const FooterSection = ({ title, links }: FooterSection) => (
     <div>
-        <h4 className="text-gray-900 dark:text-white mb-4 transition-colors duration-300">
+        <h4 className="text-white mb-4 transition-colors duration-300">
             {title}
         </h4>
         <ul className="space-y-2 text-sm">
@@ -52,7 +51,7 @@ const FooterSection = ({ title, links }: FooterSection) => (
                 <li key={link.label}>
                     <a
                         href={link.href}
-                        className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300"
+                        className="text-gray-400 hover:text-white transition-colors duration-300"
                     >
                         {link.label}
                     </a>
@@ -66,24 +65,19 @@ export function Footer() {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 transition-colors duration-300">
+        <footer className="border-t border-gray-700 bg-gray-900 transition-colors duration-300">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="grid md:grid-cols-4 gap-8">
                     {/* Brand Section */}
                     <div>
                         <div className="flex items-center gap-2 mb-4">
                             <img
-                                src={logoLight}
-                                alt="Zirco Logo"
-                                className="h-8 w-auto dark:hidden"
-                            />
-                            <img
                                 src={logoDark}
                                 alt="Zirco Logo"
-                                className="h-8 w-auto hidden dark:block"
+                                className="h-8 w-auto"
                             />
                         </div>
-                        <p className="text-gray-600 dark:text-gray-400 text-sm">
+                        <p className="text-gray-400 text-sm">
                             A general-purpose programming language for robust,
                             optimal, and clear software.
                         </p>
@@ -100,7 +94,7 @@ export function Footer() {
                 </div>
 
                 {/* Copyright Section */}
-                <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-400 transition-colors duration-300">
+                <div className="mt-12 pt-8 border-t border-gray-700 text-sm text-gray-400 transition-colors duration-300">
                     <p>
                         © {currentYear} Zirco Contributors, Logan Devine and
                         dawn_ll. Website released under the MIT License.

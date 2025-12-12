@@ -4,7 +4,7 @@ export function StabilityNotice() {
     return (
         <section
             id="code-example"
-            className="py-12 flex items-center justify-center bg-gray-50 dark:bg-gray-800 border-y border-gray-200 dark:border-gray-700 transition-colors duration-300"
+            className="py-12 flex items-center justify-center bg-gray-800 border-y border-gray-700 transition-colors duration-300"
         >
             {/* Caution tape banner: visually prominent, accessible alert */}
             <FadeIn delay={0.1}>

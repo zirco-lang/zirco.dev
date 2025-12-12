@@ -8,7 +8,7 @@ import { StabilityNotice } from "./components/StabilityNotice";
 
 export default function App() {
     return (
-        <div className="min-h-screen bg-white dark:bg-gray-900 scroll-smooth transition-colors duration-300">
+        <div className="min-h-screen bg-gray-900 scroll-smooth transition-colors duration-300">
             <Header />
             <Hero />
             <StabilityNotice />
