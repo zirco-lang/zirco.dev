@@ -3,7 +3,7 @@ import { FadeIn } from "./FadeIn";
 import ShikiHighlighter from "react-shiki";
 
 export function CodeExample() {
-    const code = `#include <stdio.zh>
+    const code = `#include <libc/stdio.zh>
 
 // Clear integer types and function syntax
 fn factorial(n: i32) -> i32 {
