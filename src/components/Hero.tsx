@@ -1,6 +1,5 @@
 import { TableOfContents } from "./TableOfContents";
 import { FadeIn } from "./FadeIn";
-import zircoLogoLight from "../assets/zirco-logo-light.png";
 import zircoLogoDark from "../assets/zirco-logo-dark.png";
 
 export function Hero() {
@@ -30,22 +29,17 @@ export function Hero() {
                 <FadeIn className="max-w-3xl">
                     <div className="mb-6 md:mb-8">
                         <img
-                            src={zircoLogoLight}
-                            alt="Zirco Programming Language"
-                            className="h-16 md:h-20 w-auto dark:hidden"
-                        />
-                        <img
                             src={zircoLogoDark}
                             alt="Zirco Programming Language"
-                            className="h-16 md:h-20 w-auto hidden dark:block"
+                            className="h-16 md:h-20 w-auto"
                         />
                     </div>
 
-                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 md:mb-6 leading-tight">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">
                         Bare-metal power. Modern clarity.
                     </h1>
 
-                    <div className="space-y-3 md:space-y-4 text-base md:text-lg text-gray-700 dark:text-gray-300">
+                    <div className="space-y-3 md:space-y-4 text-base md:text-lg text-gray-300">
                         <p>
                             Zirco is an experimental compiled C-like programming
                             language with a strong type system and modern
@@ -64,13 +58,13 @@ export function Hero() {
                     <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 md:gap-4">
                         <button
                             onClick={() => scrollToSection("get-started")}
-                            className="group px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 hover:bg-white hover:dark:bg-gray-900 hover:text-gray-900 hover:dark:text-white border-2 border-gray-900 dark:border-white transition-all duration-300 text-center font-medium"
+                            className="group px-6 py-3 bg-white text-gray-900 hover:bg-gray-900 hover:text-white border-2 border-white transition-all duration-300 text-center font-medium"
                         >
                             Get Started
                         </button>
                         <a
                             href="https://docs.zirco.dev"
-                            className="px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white hover:border-gray-900 dark:hover:border-white transition-all duration-300 text-center font-medium"
+                            className="px-6 py-3 border-2 border-gray-600 text-white hover:border-white transition-all duration-300 text-center font-medium"
                         >
                             Read Documentation
                         </a>

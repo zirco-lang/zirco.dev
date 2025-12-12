@@ -36,7 +36,7 @@ export function Features() {
         >
             <div className="w-full">
                 <FadeIn>
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 md:mb-12">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-8 md:mb-12">
                         Why Zirco?
                     </h2>
                 </FadeIn>
@@ -46,16 +46,16 @@ export function Features() {
                         const Icon = feature.icon;
                         return (
                             <FadeIn key={index} delay={0.1 * index}>
-                                <div className="h-full border border-gray-200 dark:border-gray-700 p-4 sm:p-6 hover:border-gray-400 dark:hover:border-gray-500 hover:shadow-md transition-all duration-300 rounded-lg">
+                                <div className="h-full border border-gray-700 p-4 sm:p-6 hover:border-gray-500 hover:shadow-md transition-all duration-300 rounded-lg">
                                     <div className="flex items-start gap-3 sm:gap-4">
-                                        <div className="w-10 h-10 bg-gray-900 dark:bg-white flex items-center justify-center flex-shrink-0 rounded transition-colors duration-300">
-                                            <Icon className="w-5 h-5 text-white dark:text-gray-900 transition-colors duration-300" />
+                                        <div className="w-10 h-10 bg-white flex items-center justify-center flex-shrink-0 rounded transition-colors duration-300">
+                                            <Icon className="w-5 h-5 text-gray-900 transition-colors duration-300" />
                                         </div>
                                         <div>
-                                            <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-2 transition-colors duration-300">
+                                            <h3 className="text-lg sm:text-xl font-semibold text-white mb-2 transition-colors duration-300">
                                                 {feature.title}
                                             </h3>
-                                            <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
+                                            <p className="text-sm sm:text-base text-gray-300 transition-colors duration-300">
                                                 {feature.description}
                                             </p>
                                         </div>
