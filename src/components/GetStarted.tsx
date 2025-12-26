@@ -46,12 +46,12 @@ export function GetStarted() {
                                 <div>
                                     curl -sL https://zirco.dev/zstrap.sh | bash
                                 </div>
-                                <div>zircon build main</div>
+                                <div>zircon install nightly</div>
                             </div>
                             <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
                                 Follow the steps to install the Zircon Toolchain
                                 Manager (zircon) and set up your environment,
-                                then build a toolchain.
+                                then download the latest toolchain.
                             </p>
                         </div>
                     </FadeIn>
