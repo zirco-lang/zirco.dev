@@ -24,12 +24,16 @@ export function GetStarted() {
                             </h3>
                             <div className="bg-gray-900 dark:bg-gray-950 text-white p-3 sm:p-4 mb-4 font-mono text-xs sm:text-sm overflow-x-auto rounded transition-colors duration-300">
                                 <div>
-                                    sudo apt install llvm-20-dev libpolly-20-dev
+                                    sudo apt install llvm-20-dev libpolly-20-dev clang
                                 </div>
                             </div>
                             <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
-                                Install LLVM 20 and libpolly development
+                                Install LLVM 20, clang, and libpolly development
                                 libraries for your platform.
+                            </p>
+                            <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
+                                You will also need a C compiler, libxml2 and libffi
+                                if they are not already installed.
                             </p>
                         </div>
                     </FadeIn>
