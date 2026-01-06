@@ -24,7 +24,7 @@ export function GetStarted() {
                             </h3>
                             <div className="bg-gray-900 dark:bg-gray-950 text-white p-3 sm:p-4 mb-4 font-mono text-xs sm:text-sm overflow-x-auto rounded transition-colors duration-300">
                                 <div>
-                                    sudo apt install llvm-20-dev libpolly-20-dev clang-20 libarchive-dev  libssl-dev  libcurl4-openssl-dev 
+                                    sudo apt install llvm-20-dev libpolly-20-dev clang-20 libarchive-dev libssl-dev libcurl4-openssl-dev 
                                 </div>
                             </div>
                             <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
