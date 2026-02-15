@@ -75,6 +75,12 @@ export function Header() {
                         >
                             Get Started
                         </button>
+                        <a
+                            href="https://play.zirco.dev"
+                            className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+                        >
+                            Playground
+                        </a>
                         <ThemeSwitcher />
                     </nav>
 
@@ -145,6 +151,12 @@ export function Header() {
                         >
                             Get Started
                         </button>
+                        <a
+                            href="https://play.zirco.dev"
+                            className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+                        >
+                            Playground
+                        </a>
                     </div>
                 </nav>
             </div>
