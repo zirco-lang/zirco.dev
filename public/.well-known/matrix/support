@@ -1,0 +1,9 @@
+{
+  "contacts": [
+    {
+      "email_address": "logan@zirco.dev",
+      "matrix_id": "@logn:zirco.dev",
+      "role": "m.role.admin"
+    }
+  ]
+}
