@@ -27,6 +27,7 @@ const FOOTER_LINKS: Record<string, FooterSection> = {
         links: [
             { label: "GitHub", href: "https://github.com/zirco-lang" },
             { label: "Discord", href: "https://discord.gg/NXfGWYgeBg" },
+            { label: "Matrix", href: "https://matrix.to/#/#zirco:zirco.dev" },
         ],
     },
     resources: {
