@@ -1,0 +1,18 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:logan@zirco.dev
+Contact: matrix:u/@logn:zirco.dev
+Expires: 2028-03-15T07:00:00.000Z
+Encryption: https://zirco.dev/pgp/logn.pub
+Preferred-Languages: en
+Canonical: https://zirco.dev/.well-known/security.txt
+
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQQcuxCF6U4Vn8LX7WtsFU4dvPU49AUCabbQYBsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwwLDMACgkQbBVOHbz1OPRTvwD9FdNC86cpMsVumJvTdG9n
+O0m/zmXaFvzSHdzwTY3e26cBANlITi7E12TqfM172l5esOxF6Xgg8MBgPG8kPSmy
+2O8H
+=6twx
+-----END PGP SIGNATURE-----
