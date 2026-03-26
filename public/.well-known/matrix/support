@@ -4,7 +4,7 @@
       "email_address": "logan@zirco.dev",
       "matrix_id": "@logn:zirco.dev",
       "role": "m.role.admin",
-      "dev.zirco.msc4439.encryption": "https://zirco.dev/pgp/logn.pub"
+      "dev.zirco.msc4439.pgp_key": "https://zirco.dev/pgp/logn.pub"
     }
   ]
 }
