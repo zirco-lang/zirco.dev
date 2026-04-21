@@ -42,7 +42,7 @@ export function Hero() {
                     </div>
 
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 md:mb-6 leading-tight">
-                        Test. Bare-metal power. Modern clarity.
+                        Bare-metal power. Modern clarity.
                     </h1>
 
                     <div className="space-y-3 md:space-y-4 text-base md:text-lg text-gray-700 dark:text-gray-300">
