@@ -14,7 +14,7 @@ const FOOTER_LINKS: Record<string, FooterSection> = {
     learn: {
         title: "Learn",
         links: [
-            { label: "Documentation", href: "https://docs.zirco.dev" },
+            { label: "test", href: "https://docs.zirco.dev" },
             { label: "Tutorial", href: "https://zirco.dev/GETTING_STARTED" },
             {
                 label: "Examples",
