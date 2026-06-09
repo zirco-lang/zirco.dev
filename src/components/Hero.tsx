@@ -31,7 +31,7 @@ export function Hero() {
                     <div className="mb-6 md:mb-8">
                         <img
                             src={zircoLogoLight}
-                            alt="Zirco Programming Language"
+                            alt="Zirco Programming Language [test]"
                             className="h-16 md:h-20 w-auto dark:hidden"
                         />
                         <img
