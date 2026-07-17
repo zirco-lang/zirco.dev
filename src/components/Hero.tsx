@@ -69,7 +69,7 @@ export function Hero() {
                             Get Started
                         </button>
                         <a
-                            href="https://docs.zirco.dev"
+                            href="https://book.zirco.dev"
                             className="px-6 py-3 border-2 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white hover:border-gray-900 dark:hover:border-white transition-all duration-300 text-center font-medium"
                         >
                             Read Documentation
