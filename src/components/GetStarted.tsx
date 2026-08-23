@@ -82,7 +82,7 @@ export function GetStarted() {
                     <p className="text-sm sm:text-base text-gray-700 dark:text-gray-300 transition-colors duration-300">
                         Check out our{" "}
                         <a
-                            href="https://docs.zirco.dev/GETTING_STARTED"
+                            href="https://book.zirco.dev/ch01-00-getting-started.html"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="underline hover:text-gray-900 dark:hover:text-white font-medium transition-colors duration-300"
