@@ -14,8 +14,8 @@ const FOOTER_LINKS: Record<string, FooterSection> = {
     learn: {
         title: "Learn",
         links: [
-            { label: "Documentation", href: "https://docs.zirco.dev" },
-            { label: "Tutorial", href: "https://zirco.dev/GETTING_STARTED" },
+            { label: "Book", href: "https://book.zirco.dev" },
+            { label: "Playground", href: "https://play.zirco.dev" },
             {
                 label: "Examples",
                 href: "https://github.com/zirco-lang/zrc/tree/main/examples",
@@ -33,12 +33,11 @@ const FOOTER_LINKS: Record<string, FooterSection> = {
     resources: {
         title: "Resources",
         links: [
-            { label: "Internals", href: "https://zirco.dev/COMPILER_PIPELINE" },
             {
                 label: "Contributing",
                 href: "https://github.com/zirco-lang/zrc/pulls",
             },
-            { label: "Full Spec", href: "https://zirco.dev/SPEC" },
+            { label: "Reference", href: "https://book.zirco.dev/reference.html" },
         ],
     },
 };
